@@ -1,10 +1,15 @@
-import './App.css';
+import "./App.css";
+import { HomePage } from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="bg-black w-10 h-10">
+    <>
+      <header className="h-14 bg-slate-200 sticky"></header>
 
-    </div>
+      <main>
+        <HomePage />
+      </main>
+    </>
   );
 }
 
