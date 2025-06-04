@@ -49,7 +49,7 @@ function ProjectCard(props) {
   return (
     <div className="flex p-2 rounded gap-2 bg-blue-200">
       <img
-        src="https://picsum.photos/80/80"
+        src={`https://picsum.photos/80/80?random=${props.id}`}
         alt={props.alkotasAzonosito}
         className="w-20 h-20 rounded-full"
       />
